@@ -54,3 +54,8 @@
 ## Todos
 
 * add some test cases
+
+## Credits
+
+* https://www.github.com/igrigorik/em-synchrony
+* https://www.github.com/leftbee/em-postgresql-adapter
