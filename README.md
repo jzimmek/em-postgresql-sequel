@@ -5,7 +5,7 @@
 * gem install pg
 * gem install eventmachine
 * gem install sequel
-* gem install em-postgesql-sequel
+* gem install em-postgresql-sequel
 
 ## Examples
 
