@@ -2,9 +2,10 @@
 
 ## Installation
 
-* gem install "pg"
-* gem install "sequel"
-* gem install "em-postgesql-sequel"
+* gem install pg
+* gem install eventmachine
+* gem install sequel
+* gem install em-postgesql-sequel
 
 ## Examples
 
