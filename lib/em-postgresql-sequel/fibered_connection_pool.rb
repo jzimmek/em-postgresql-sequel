@@ -2,11 +2,12 @@ module EM
   module Sequel
     
     class FiberedConnectionPool < ::Sequel::ConnectionPool
-      def initialize(opts={}, &block)
+      def initialize(*args)
         super
         @available = []
         @waiting = []
         
+        opts = args.last
         Integer(opts[:max_connections] || 4).times do
           @available << make_new(DEFAULT_SERVER)
         end
